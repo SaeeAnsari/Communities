@@ -1,6 +1,6 @@
 import { CommunitiesPage } from './app.po';
 
-describe('communities App', () => {
+describe('communities App', function() {
   let page: CommunitiesPage;
 
   beforeEach(() => {
