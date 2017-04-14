@@ -12,6 +12,7 @@
 
 
     <div class="feed_post_area" *ngFor="let post of posts">
+      
 
       <app-user-tag ID="{{post.userID}}" ImageURL="{{post.userProfileImage}}" Name="{{post.userFullName}}" PostDate="{{post.postDate}}"></app-user-tag>
       <app-user-post PostMessage="{{post.text}}" PostMediaURL="{{post.imageURL}}"></app-user-post>
